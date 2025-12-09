@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.gridLayout{
+    display: grid;
+    grid-template-areas:
+    "container"
+    "grid"
+    ;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,1fr);
+    grid-template-rows: repeat(auto-fit,1fr);
+}
+.container{
+    margin: solid 20px;
+    background-color: black;
+    display: flex;
+    border: solid 1px blue;
+    padding: 0%;
+}
+.logo{
+    color: white;
+}
+.contact{
+    color: white;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+
+.btn-primary{
+    background-color: black;
+}
+
+.btn-primary:hover{
+    background-color: grey;
+}
+
+.carouselExampleControls{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
